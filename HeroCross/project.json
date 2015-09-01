@@ -1,0 +1,29 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d","ccpool"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+        
+        "src/constant/GameConstant.js",
+        
+        "src/element/Hero.js",
+        "src/element/Stick.js",
+        "src/element/Floor.js",
+        
+        "src/logic/FloorManager.js",
+        
+        "src/scene/GameScene.js",
+        
+        "src/ui/GameOverUI.js"
+    ]
+}
